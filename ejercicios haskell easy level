@@ -1,0 +1,3 @@
+recursivo :: [a] -> a
+recursivo [x] = x
+recursivo (_:xs) = recursivo xs
